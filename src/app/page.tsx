@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center">
-      <div className='px-40 w-screen h-screen flex flex-col lg:gap-0 lg:flex-row items-center min-w-full'>
+      <div className='px-20 w-screen h-screen flex flex-col lg:gap-0 lg:flex-row items-center min-w-full'>
         {/* Left Donut */}
         <Spline style={{height: 'fit', width: 'fit'}} className='scale-[1.25]' scene="https://prod.spline.design/0lej-sFk3wliLQ0q/scene.splinecode" />
 
